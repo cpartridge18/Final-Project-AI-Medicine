@@ -20,7 +20,7 @@ def just_words(input):
                       " ",               # The pattern to replace it with
                       input)             # The text to search
 	lower_case = letters_only.lower()    # Convert to lower case
-	words = lower_case.split()      # Split into words
+	words = lower_case.split()           # Split into words
 	return words
 
 # Just the words from the input
@@ -52,7 +52,7 @@ def match(list, comp_list):
 
     return(D)
 
-#Comparison Text
+# Comparison Text
 comp = "faithful adaptation, humerous, this is the best, down with the bourgeois"
 comp_words = just_words(comp)
 
@@ -60,11 +60,11 @@ comp_words = just_words(comp)
 comp = match(trim, comp_words)
 print(comp)
 
-#print just the 1's and 0's
+# Print just the 1's and 0's
 print(list(comp.values()))
 
-#Counter of 
-counter=collections.Counter(list(match(trim, comp_words).values()))
+# Counter of similarites 
+counter=collections.Counter(list(comp.values()))
 print(counter.values())
 sim = float(counter[1]/(counter[0]+counter[1]))   #percent of words that appeared in the compared text
 print("Percent Similarity: " + str(sim))
