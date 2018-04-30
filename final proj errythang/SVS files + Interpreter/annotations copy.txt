@@ -1,0 +1,3 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+333da618-397c-536d-9656-de5f8f278ea7	649	case	07b5663f-9a54-4462-b6c1-6fc8116b8714	Pathology outside specification	Notification	2010-09-02T00:00:00	Rescinded	[intgen.org]: Pathology Results off Spec
+0088ea21-805c-50e6-a97c-717bf3ee0cd4	649	case	07b5663f-9a54-4462-b6c1-6fc8116b8714	Pathology outside specification	Notification	2010-09-02T00:00:00	Rescinded	This annotation was rescinded by jensenma on 12/14/11 12:07 PM
